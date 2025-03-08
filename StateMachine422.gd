@@ -10,7 +10,7 @@ enum STATE {
 
 
 var current_state: STATE = STATE
-func _process(delta):
+func _process(delta): # Also, this can be _physics_proces(): method
 	match  current_state:
 		STATE.THISISASTATE:
 			pass
